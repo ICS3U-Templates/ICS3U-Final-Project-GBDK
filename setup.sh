@@ -58,6 +58,7 @@ cp -r .vscode ~/GBDK/.vscode
 cp -r ./simulator ~/GBDK/simulator
 cp -r ./Tile_Generator ~/GBDK/Tile_Generator
 cp -r ./example ~/GBDK/example
+cp -r compile.sh ~/GBDK
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
