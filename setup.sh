@@ -72,7 +72,7 @@ cp -r ./simulator ~/GBDK/simulator
 cp -r ./Tile_Generator ~/GBDK/Tile_Generator
 cp -r ./example ~/GBDK/example
 cp -r compile.sh ~/GBDK
-chmod +X ~/GBDK/compile.sh
+chmod +x ~/GBDK/compile.sh
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
