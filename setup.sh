@@ -50,15 +50,15 @@ echo "When it does, close this orginial one and use the new Codespace window."
 echo "When ready, press any key."
 read  any_key
 
-# create an ICS3U directory in the root directory
-mkdir ~/ICS3U
+# create an GBDK directory in the root directory
+mkdir ~/GBDK
 
 # copy over the .vscode directory into it
-cp -r .vscode ~/ICS3U/.vscode
+cp -r .vscode ~/GBDK/.vscode
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
 
-# change into the ICS3U directory and then open Codespaces in there
-cd ~/ICS3U
+# change into the GBDK directory and then open Codespaces in there
+cd ~/GBDK
 code .
