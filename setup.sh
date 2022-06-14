@@ -53,8 +53,10 @@ read  any_key
 # create an GBDK directory in the root directory
 mkdir ~/GBDK
 
-# copy over the .vscode directory into it
+# copy over the .vscode directory and web tools into it
 cp -r .vscode ~/GBDK/.vscode
+cp -r ./simulator ~/simulator
+cp -r ./Tile_Generator ~/Tile_Generator
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
