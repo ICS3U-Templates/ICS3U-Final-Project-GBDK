@@ -15,4 +15,4 @@ Once the Codespace is up and running, in the terminal type:
 - then follow the prompts to finish setting up your new Codespace and connect it to your GitHub account
 - once your new Codespace window opens, close the old one down
 
-<h1 style="color:red;font-size:150px;text-align:center;"> 🖥️⌨️🖱️🥷 </h1>
+<h1 style="color:red;font-size:150px;text-align:center;"> 🕹️🎮🥷 </h1>
