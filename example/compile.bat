@@ -1,0 +1,1 @@
+/opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j -o hello_world.gb hello_world.c

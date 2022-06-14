@@ -55,8 +55,9 @@ mkdir ~/GBDK
 
 # copy over the .vscode directory and web tools into it
 cp -r .vscode ~/GBDK/.vscode
-cp -r ./simulator ~/simulator
-cp -r ./Tile_Generator ~/Tile_Generator
+cp -r ./simulator ~/GBDK/simulator
+cp -r ./Tile_Generator ~/GBDK/Tile_Generator
+cp -r ./example ~/GBDK/example
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
