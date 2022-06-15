@@ -43,7 +43,7 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"ms-vscode.cpptools",
+		"ms-vscode.cpptools-extension-pack",
 		"hediet.vscode-drawio",
 		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
