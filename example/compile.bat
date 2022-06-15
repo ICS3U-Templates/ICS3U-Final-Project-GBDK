@@ -4,7 +4,7 @@
 rm ~/gbdk/simulator/rom/*.gb
 
 # compile to game
-/opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j -o hello_world.gb hello_world.c
+/opt/gbdk/bin/lcc -Wa-l -Wl-m -Wl-j -o game.gb hello_world.c
 
 # move it to the simulator directory
-cp ./hello_world.gb ~/gbdk/simulator/rom/hello_world.gb
+cp ./game.gb ~/gbdk/simulator/rom/game.gb
