@@ -51,7 +51,7 @@
 		"ms-vsliveshare.vsliveshare",
 		"ritwickdey.LiveServer",
 		"streetsidesoftware.code-spell-checker",
-		"PKief.material-icon-theme",
+		"PKief.material-icon-theme"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
