@@ -18,14 +18,15 @@
 		"C_Cpp.dimInactiveRegions": false,
 		"C_Cpp.enhancedColorization": "Enabled",
 		"C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}",
+		"editor.bracketPairColorization.enabled": true,
 		"editor.folding": false,
 		"editor.foldingHighlight": false,
+		"editor.fontSize": 20,
+		"editor.guides.indentation": true,
+		"editor.guides.bracketPairs":"active",
 		"editor.matchBrackets": "near",
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.tabCompletion": "on",
-		"editor.bracketPairColorization.enabled": true,
-		"editor.guides.bracketPairs":"active",
-		"editor.fontSize": 20,
 		"terminal.integrated.fontSize": 20,
 		"terminal.integrated.fontFamily": "Comic Mono, monospace",
 		"files.trimTrailingWhitespace": true,
@@ -33,8 +34,10 @@
 		"prettier.semi": false,
 		"python.formatting.blackArgs": ["--line-length", "120"],
 		"python.formatting.provider": "black",
+		"workbench.iconTheme": "material-icon-theme",
 		"workbench.preferredDarkColorTheme": "Default Dark+",
 		"workbench.preferredLightColorTheme": "Default Light+",
+		"workbench.colorTheme": "GitHub Dark",
 		"workbench.startupEditor": "none",
 		"workbench.statusBar.visible": true,
 		"workbench.tips.enabled": false,
@@ -45,12 +48,10 @@
 	"extensions": [
 		"ms-vscode.cpptools-extension-pack",
 		"hediet.vscode-drawio",
-		"oderwat.indent-rainbow",
 		"ms-vsliveshare.vsliveshare",
 		"ritwickdey.LiveServer",
 		"streetsidesoftware.code-spell-checker",
 		"PKief.material-icon-theme",
-		"hediet.vscode-drawio"
 	],
 
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
