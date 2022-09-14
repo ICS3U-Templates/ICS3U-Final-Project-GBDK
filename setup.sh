@@ -78,6 +78,7 @@ chmod +x ~/GBDK/compile.sh
 
 # update the .bashrc to add in aliases for ll, ..
 cp .bashrc ~/.bashrc
+source ~/.bashrc
 
 # change into the GBDK directory and then open Codespaces in there
 cd ~/GBDK
