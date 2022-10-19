@@ -72,6 +72,7 @@ mkdir ~/GBDK/lesson-13
 cp -r .vscode ~/GBDK/.vscode
 cp -r ./simulator ~/GBDK/simulator
 cp -r ./Tile_Generator ~/GBDK/Tile_Generator
+cp -r ./GameBoyPngConverter ~/GBDK/GameBoyPngConverter
 cp -r ./example ~/GBDK/example
 cp -r compile.sh ~/GBDK
 chmod +x ~/GBDK/compile.sh
