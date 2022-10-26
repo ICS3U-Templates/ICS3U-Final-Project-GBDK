@@ -28,6 +28,7 @@
 		// Controls if pressing tab inserts the best suggestion and if tab cycles through other suggestions
 		"editor.renderWhitespace": "all",
 		"editor.tabCompletion": "on",
+	        "editor.mouseWheelZoom": true,
 		"terminal.integrated.fontSize": 20,
 		"terminal.integrated.fontFamily": "Comic Mono, monospace",
 		"files.trimTrailingWhitespace": true,
