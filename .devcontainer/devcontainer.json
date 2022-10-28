@@ -29,6 +29,7 @@
 		"editor.renderWhitespace": "all",
 		"editor.tabCompletion": "on",
 	        "editor.mouseWheelZoom": true,
+		"editor.lineNumbers": "relative",
 		"terminal.integrated.fontSize": 20,
 		"terminal.integrated.fontFamily": "Comic Mono, monospace",
 		"files.trimTrailingWhitespace": true,
