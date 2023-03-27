@@ -53,5 +53,5 @@
         }
     },
 	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install cpplint"
+	"postCreateCommand": "bash ./.devcontainer/startup.sh"
 }
