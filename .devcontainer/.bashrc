@@ -88,7 +88,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -la'
+alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
 
@@ -130,7 +130,8 @@ __bash_prompt() {
         fi`'
     local lightblue='\[\033[1;34m\]'
     local removecolor='\[\033[0m\]'
-    PS1="${userpart} ${lightblue}\w ${gitbranch}${removecolor}\$ "
+    # updated line below to remove file location
+    PS1="${userpart} ${gitbranch}${removecolor}\$ "
     unset -f __bash_prompt
 }
 __bash_prompt
