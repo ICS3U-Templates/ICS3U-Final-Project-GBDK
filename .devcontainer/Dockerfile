@@ -17,5 +17,5 @@ RUN apt-get -qy install neofetch
 RUN apt-get -qy install vim
 
 # Now install the GBDK
-RUN wget https://github.com/gbdk-2020/gbdk-2020/releases/download/4.0.6/gbdk-linux64.tar.gz
+RUN wget https://github.com/gbdk-2020/gbdk-2020/releases/download/4.1.1/gbdk-linux64.tar.gz
 RUN sudo tar -zxf gbdk-linux64.tar.gz --directory /opt
