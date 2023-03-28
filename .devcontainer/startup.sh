@@ -19,6 +19,9 @@ mkdir ./GBDK/lesson-13
 # always run on new instance
 cp ./.devcontainer/.bashrc ~/.bashrc
 # install CPPLint
+sudo apt update
+sudo apt -y full-upgrade
+sudo apt-get -y install python3-pip
 sudo pip3 install cpplint
 # shellcheck disable=SC1090
 source ~/.bashrc
