@@ -3,7 +3,6 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-	// Set *default* container specific settings.json values on container create.
     "customizations": {
         "vscode": {
             "settings": {
@@ -50,6 +49,5 @@
             }
         }
     },
-	// Uncomment the next line to use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "bash ./.devcontainer/startup.sh"
 }

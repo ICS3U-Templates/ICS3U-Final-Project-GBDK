@@ -7,7 +7,7 @@ This version makes the following changes.
 
 - Canvas fills browser window on desktop/tablet while keeping aspect ratio
 - Touch controls displayed on mobile/tablet 
-- Using css `image-rendering: pixelated` rather than bilinear filtering
+- Using CSS `image-rendering: pixelated` rather than bilinear filtering
 - Touch dpad controls for mobile using touch move with a deadzone
 - Keyboard fix for iPad keyboard case that doesn't report keyup event keycode
 - Wait for keyboard or touch input before starting AudioContext to fix issues in Chrome and iOS not playing Audio
